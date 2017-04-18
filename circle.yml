@@ -8,7 +8,7 @@ dependencies:
 
 test:
   override:
-    - docker build -t ssig33/mastodon .
+    - docker build -t ssig33/mastodon:`date "+%Y%m%d"` .
 
 deployment:
   hub:
